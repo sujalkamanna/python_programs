@@ -9,7 +9,7 @@ else:
     print("you are good to go :)")
 print(f"{min} minuites is {sec} seconds")
 
-
+print("<-------------------------------->")
 def count_down(n):
     while n:
         mins, sec = divmod(n, 60)
