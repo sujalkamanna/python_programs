@@ -1,4 +1,4 @@
-from barcode import Code128
+from barcode_generator import Code128
 from barcode.writer import ImageWriter
 
 def generate_barcode(data):
