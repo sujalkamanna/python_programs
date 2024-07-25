@@ -6,7 +6,7 @@ root.title("Digital Clock")
 
 
 def time():
-    string = strftime('Current time is : %H:%M:%S %p')
+    string = strftime('Current time is : %I:%M:%S %p')
     string += "\n" + strftime("Today's Date :%d/%m/%Y")
     label.config(text=string)
     label.after(1000, time)
